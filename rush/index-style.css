@@ -1,0 +1,118 @@
+/*
+GOOGLE FONTS
+
+    font-family: 'Lexend Deca', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+            
+    font-family: 'Roboto', sans-serif;
+    
+    font-size: 15px;  
+
+    
+}
+
+.container {
+    display: flex;
+   
+    /*justify-content: center;
+    align-items: center;*/
+    min-height: 100vh;
+    background: lightgray;
+}
+
+.table-amin {
+   flex: 50%;
+   padding: 5px;
+   margin-left: auto;
+   margin-right: 25px;
+    /*margin: 100px auto;
+    width: 400px;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .2);*/
+}
+
+.table-lee {
+    flex: 50%;
+    padding: 5px;
+    margin-left: 25px;
+    margin-right: auto;
+     /*margin: 100px auto;
+     width: 400px;
+     border-collapse: collapse;
+     background: white;
+     box-shadow: 0 0 15px 0 rgba(0, 0, 0, .2);*/
+ }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 400px;
+    border: 0px solid black;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .2);
+    background: whitesmoke;
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+
+.profile-name {
+    margin-top: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.profile-image {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border: 3px solid black;
+    width: 300px;
+    padding: 0;
+    border-radius: 300px;
+}
+
+.profile-login, a {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.profile-desc {
+    font: 24px;
+}
+
+.profile-social {
+    margin-top: 75px;
+    font-size: 30px;
+    letter-spacing: 15px;
+}
+
+/* HOVER EFFECTS */
+.fa-linkedin-square:hover {
+    color: rgb(0, 114, 177);
+    cursor: pointer;
+}
+
+.fa-facebook-square:hover {
+    color: rgb(59, 86, 152);
+    cursor: pointer;
+}
+
+.fa-youtube:hover {
+    color: rgb(196, 48, 43);
+    cursor: pointer;
+}
+
+.profile-name:hover {
+    color: yellowgreen;
+}
